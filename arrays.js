@@ -46,12 +46,6 @@ console.log(middlenums)
 */
 
 // CODE HERE
-//function : bigOrSmall; parameter : 'arr' (array of numbers)
-// inside that create another array called 'answers'
-//loop over arr param and check to see if number in array is >100 , if it is push 'big'
-// as a string to the answers array 
-// if the number is <= 100 push 'small' as a string to the answers array
-// return the answers array inside of the function
 
 
 function bigOrSmall(arr) {
@@ -61,5 +55,6 @@ function bigOrSmall(arr) {
   }else (arr <= 100); {
     console.log(answers.push['small']);
   } console.log(answers);
- 
 }
+
+console.log("I gave this one my all. :)")
