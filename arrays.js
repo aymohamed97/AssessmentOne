@@ -5,10 +5,18 @@ const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
 
+var colorCopy = faveColors.slice();
+
+console.log(colorCopy);
+
+
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
 //CODE HERE
+colorCopy.push('pink');
+console.log(colorCopy);
+
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -18,8 +26,11 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
+
 //CODE HERE
 
+const middlenums = numbers.slice(1,4);
+console.log(middlenums)
 
 //////////////////PROBLEM 4////////////////////
 /* 
@@ -35,3 +46,20 @@ const numbers = [1, 2, 3, 4, 5]
 */
 
 // CODE HERE
+//function : bigOrSmall; parameter : 'arr' (array of numbers)
+// inside that create another array called 'answers'
+//loop over arr param and check to see if number in array is >100 , if it is push 'big'
+// as a string to the answers array 
+// if the number is <= 100 push 'small' as a string to the answers array
+// return the answers array inside of the function
+
+
+function bigOrSmall(arr) {
+ let answers = [];
+  if (arr > 100){
+    console.log(answers.push['big']);
+  }else (arr <= 100); {
+    console.log(answers.push['small']);
+  } console.log(answers);
+ 
+}
